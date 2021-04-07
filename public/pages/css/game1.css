@@ -1,0 +1,137 @@
+.header{
+    text-align: center;
+    color: white
+}
+.header p{
+    font-size: 2em;
+}
+body{
+    background-image: url('../image/1.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center ; 
+    background-attachment: fixed;
+}
+.answer{
+    padding-top: 100px;
+}
+.result__true{
+    color: red;;
+}
+
+.image{
+    /* background-image: url('../../upload/image/a.jpg'); */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center ; 
+    width: 25em;
+    height: 15em;
+    margin: 0 auto;
+
+}
+
+
+.row.top{
+    margin-bottom: 2em;
+}
+.word{
+    text-align: center;
+    position: sticky;
+    top: 100%;
+    color: white;
+    /* width: 11em; */
+    margin: 0 auto;
+    background: blue;
+    font-size: 2em;
+    margin-top: 1em;
+}
+.speaker img{
+  width: 200px;
+}
+
+.header{
+    text-align: center;
+}
+.header a > img{
+
+    width: 100px;
+    float: left;
+}
+.header >h2 {
+    color: red;
+}
+#topic_name{
+    font-weight: 600;
+    font-style: italic;
+}
+.f > img {
+    width: 300px; 
+    border: 10px outset #8FBC8F;
+}
+
+@media only screen and (max-width: 992px){
+    .f > img {
+        width: 265px;
+    }
+    .answer {
+        padding-top: 137px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .f > img {
+        width: 240px;
+    }
+    .answer {
+        padding-top: 152px;
+    }
+    .speaker img {
+        width: 145px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .speaker > img{
+        position: absolute;
+        top: -406px;
+        top: -500px;
+        right: 226px;
+        width: 130px;   
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .header a > img {
+        width: 69px ;
+    }
+    .f > img{
+        width: 167px;
+    }
+    .speaker > img{
+        position: absolute;
+        top: -406px;
+        right: 126px;
+        width: 140px;
+        width: 130px;   
+    }
+    .word{
+        margin-top: 125px;
+    }
+    .answer {
+        padding-top: 160px;
+    }
+    /* .swal2-popup .swal2-modal .swal2-icon-error .swal2-show{
+        width: 262px;
+        height: 279px;
+    } */
+    .swal2-popup {
+        font-size: 0.5rem;
+        }  
+}
+
+@media only screen and (max-width: 320px){
+    .word{
+        margin-top: 35px;
+    }
+}
